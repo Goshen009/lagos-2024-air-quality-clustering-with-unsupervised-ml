@@ -3,3 +3,6 @@
 .env
 debug_download.csv
 /outputs
+.ipynb_checkpoints/
+*.csv
+document.txt

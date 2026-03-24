@@ -26,3 +26,9 @@ jobs:
         run: python run_pipeline.py
         env:
           MONGO_URI: ${{ secrets.MONGO_URI }}
+      
+      - name: Upload executed notebook
+        uses: actions/upload-artifact@v4
+        with:
+          name: executed-notebook
+          path: outputs/

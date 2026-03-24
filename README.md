@@ -703,8 +703,8 @@ lagos-air-quality/
 - **Objective**: Final Year Project on Urban Air Quality Analysis
 - **Methodology**: Unsupervised Machine Learning (Clustering)
 - **Data Points Analyzed**:
-  - ~100,000 hourly readings collected
-  - ~5,000 daily aggregates used for clustering
+  - ~5,000–10,000 hourly readings per monthly run
+  - ~58 daily aggregates used for clustering per month
 - **Sensor Types**:
   - PMS5003 (Particulate Matter measurements)
   - DHT22 (Humidity and Temperature)

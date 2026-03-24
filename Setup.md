@@ -41,7 +41,6 @@ Create a file named `.env` in the project root folder with the following:
 
 ```
 MONGO_URI=mongodb+srv://<user>:<password>@<cluster>.mongodb.net/?retryWrites=true&w=majority
-DB_NAME=lagos_air_quality
 ```
 
 Replace `<user>`, `<password>`, and `<cluster>` with your MongoDB Atlas credentials.

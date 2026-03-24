@@ -1,9 +1,9 @@
 name: Monthly Air Quality Pipeline
 
 on:
-  workflow_dispatch:
   schedule:
     - cron: '0 2 1 * *'   # 1st of every month, 2AM UTC
+  workflow_dispatch:
 
 jobs:
   run-pipeline:
